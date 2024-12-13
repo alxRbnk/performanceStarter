@@ -1,0 +1,16 @@
+{
+  "properties": [
+    {
+      "name": "performance-monitor.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Enable or disable performance monitoring.",
+      "defaultValue": true
+    },
+    {
+      "name": "performance-monitor.min-execution-time",
+      "type": "java.lang.Long",
+      "description": "Minimum execution time (in milliseconds) for logging.",
+      "defaultValue": 100
+    }
+  ]
+}
